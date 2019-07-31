@@ -1,0 +1,200 @@
+[
+    {
+        "question": "How many broomsticks are flown in a full game of Quidditch?",
+        "options": [
+            "Fifteen", 
+            "Sixteen", 
+            "Fourteen", 
+            "Two hundred and Sixty seven" 
+        ],
+        "imagem": "quidditch",
+        "rightAnswer": "Fifteen"
+    },
+    {
+        "question": "What does one say to close the Marauder's Map and make it blank again?",
+        "options": [
+            "Nox",
+            "Nothing to see here",
+            "Mischief Managed",
+            "Close"
+        ],
+        "imagem": "map",
+        "rightAnswer": "Mischief Managed"
+    },
+    {
+        "question": "Which Hogwarts house is Terry Boot a member",
+        "options": [
+            "Slytherin", 
+            "Ravenclaw", 
+            "Gryffindor", 
+            "Hufflepuff" 
+        ],
+        "imagem": "terry",
+        "rightAnswer": "Ravenclaw"
+    },
+    {
+        "question": "Who is head of the department of magical games and sports?",
+        "options": [
+            "Igor Karkaroff",
+            "Oliver Wood",
+            "Cornelius Fudge",
+            "Ludo Bagman"
+        ],
+        "imagem": "sports",
+        "rightAnswer": "Ludo Bagman"
+    },
+    {
+        "question": "A wizard who cannot do magic is known as a: ",
+        "options": [
+            "Muggle",
+            "Wizont",
+            "Duddle",
+            "Squib"
+        ],
+        "imagem": "squib",
+        "rightAnswer": "Squib"
+    },
+    {
+        "question": "Who is Bathsheda Babbling?",
+        "options": [
+            "Muggle Studies Professor",
+            "An auror from the Order of the Phoenix",
+            "Ancient Runes Professor",
+            "An lord of the rings character"
+        ],
+        "imagem": "bathsheda",
+        "rightAnswer": "Ancient Runes Professor"
+    },
+    {
+        "question": "Which Polyjuice Potion ingredients must be acquired at the full moon?",
+        "options": [
+            "A bit of whoever you wish to turn into", 
+            "Knotgrass", 
+            "Fluxweed", 
+            "Newt spleen" 
+        ],
+        "imagem": "potion",
+        "rightAnswer": "Fluxweed"
+    },
+    {
+        "question": "Which spell summons an object?",
+        "options": [
+            "Aparecium",
+            "Accio",
+            "Apparate",
+            "Ascendio"
+        ],
+        "imagem": "accio",
+        "rightAnswer": "Accio"
+    },
+    {
+        "question": "Katie Bell is:",
+        "options": [
+            "A Gryffindor and a half-blood",
+            "A Ravenclaw and a pureblood",
+            "A Gryffindor and a pureblood",
+            "A Hufflepuff and a muggleborn"
+        ],
+        "imagem": "katie",
+        "rightAnswer": "A Gryffindor and a pureblood"
+    },
+    {
+        "question": "What does O.W.L. stand for?",
+        "options": [
+            "Official Wizarding Level",
+            "Ordinary Wizarding Level",
+            "Outstanding Wizarding Level",
+            "Outstanding Wonderful Luck"
+        ],
+        "imagem": "owl",
+        "rightAnswer": "Ordinary Wizarding Level"
+    },
+    {
+        "question": "Who was formerly a headmaster of Hogwarts?",
+        "options": [
+            "Aberforth Dumbledore",
+            "Phineas Nigellus Black",
+            "Nicholas de Mimsy-Porpington",
+            "Cornelius Fudge"
+        ],
+        "imagem": "phineas",
+        "rightAnswer": "Phineas Nigellus Black"
+    },
+    {
+        "question": "Who played Lord Voldemort in the movies?",
+        "options": [
+            "Jeremy Irons",
+            "Tom Riddle",
+            "Gary Oldman",
+            "Ralph Fiennes"
+        ],
+        "imagem": "voldemort",
+        "rightAnswer": "Ralph Fiennes"
+    },
+    {
+        "question": "Which team from the Ministry of Magic is responsible for modifying the memories of Muggles who have been exposed to magic?",
+        "options": [
+            "Unspeakables", 
+            "Aurors", 
+            "Obliviators", 
+            "The Wizengamot" 
+        ],
+        "imagem": "memories",
+        "rightAnswer": "Obliviators"
+    },
+    {
+        "question": "Which spell shoots a fireball from the caster's wand?",
+        "options": [
+            "Lacarnum Inflamarae",
+            "Incendio",
+            "Incarcerous",
+            "Imperio"
+        ],
+        "imagem": "fire",
+        "rightAnswer": "Lacarnum Inflamarae"
+    },
+    {
+        "question": "Which Hogwarts house was Moaning Murtle a member of?",
+        "options": [
+            "Ravenclaw", 
+            "Hufflepuff", 
+            "Slytherin", 
+            "Gryffindor" 
+        ],
+        "imagem": "moaning",
+        "rightAnswer": "Ravenclaw"
+    },
+    {
+        "question": "What year was Ollivanders founded?",
+        "options": [
+            "382 BC", 
+            "465 BC", 
+            "57 BC", 
+            "712 BC" 
+        ],
+        "imagem": "ollivanders",
+        "rightAnswer": "382 BC"
+    },
+    {
+        "question": "Cuthbert Binns is a professor in what subject?",
+        "options": [
+            "Muggle Studies",
+            "Astronomy",
+            "Ancient Runes",
+            "History of Magic"
+        ],
+        "imagem": "binns",
+        "rightAnswer": "History of Magic"
+    },
+    {
+        "question": "What number is Harry's vault at the Gringotts Wizarding Bank?",
+        "options": [
+            "Six hundred and twenty-seven", 
+            "Seven hundred and eleven", 
+            "Six hundred and eighty-seven", 
+            "Seven hundred and thirteen" 
+        ],
+        "imagem": "gringots",
+        "rightAnswer": "Six hundred and eighty-seven"
+    }
+]
