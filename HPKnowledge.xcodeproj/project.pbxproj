@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		0158AC1BEE9A85F9BF699AC7 /* Pods_HPKnowledge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE41EB75D7469796EE9493A7 /* Pods_HPKnowledge.framework */; };
 		8AD03924A4C0E58A25E6B74B /* Pods_HPKnowledgeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3529925CFBE594573C44C /* Pods_HPKnowledgeUITests.framework */; };
+		984AFE8022F1D15D000AC8A7 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE7F22F1D15D000AC8A7 /* AppReducer.swift */; };
+		984AFE8322F1D289000AC8A7 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE8222F1D289000AC8A7 /* AppState.swift */; };
+		984AFE8522F1D293000AC8A7 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE8422F1D293000AC8A7 /* LoginState.swift */; };
+		984AFE8822F1D486000AC8A7 /* QuestionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE8722F1D486000AC8A7 /* QuestionState.swift */; };
+		984AFE8A22F1DAD7000AC8A7 /* LoginReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE8922F1DAD7000AC8A7 /* LoginReducer.swift */; };
+		984AFE8C22F1DAE3000AC8A7 /* QuestionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE8B22F1DAE3000AC8A7 /* QuestionReducer.swift */; };
+		984AFE8F22F1E0B1000AC8A7 /* ChangeCharacterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE8E22F1E0B1000AC8A7 /* ChangeCharacterAction.swift */; };
+		984AFE9122F1E0BC000AC8A7 /* ChangeSpellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE9022F1E0BC000AC8A7 /* ChangeSpellAction.swift */; };
+		984AFE9322F1E0F4000AC8A7 /* AnswerQuestionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AFE9222F1E0F4000AC8A7 /* AnswerQuestionAction.swift */; };
 		9863B07121F75F3B00947B4A /* SpellInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9863B07021F75F3B00947B4A /* SpellInformationView.xib */; };
 		9863B07321F7634F00947B4A /* SpellInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863B07221F7634F00947B4A /* SpellInfoViewController.swift */; };
 		9863B08D21F7F0C700947B4A /* lol.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9863B07421F7F0C600947B4A /* lol.gif */; };
@@ -112,6 +121,15 @@
 		41B7AA4B402287F0554A59BB /* Pods-HPKnowledge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPKnowledge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPKnowledge/Pods-HPKnowledge.debug.xcconfig"; sourceTree = "<group>"; };
 		6A0ED011935DCC218968C9AD /* Pods-HPKnowledgeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPKnowledgeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPKnowledgeUITests/Pods-HPKnowledgeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		735350367F3F4D0BAA036D83 /* Pods-HPKnowledgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPKnowledgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPKnowledgeTests/Pods-HPKnowledgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		984AFE7F22F1D15D000AC8A7 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		984AFE8222F1D289000AC8A7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		984AFE8422F1D293000AC8A7 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		984AFE8722F1D486000AC8A7 /* QuestionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionState.swift; sourceTree = "<group>"; };
+		984AFE8922F1DAD7000AC8A7 /* LoginReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReducer.swift; sourceTree = "<group>"; };
+		984AFE8B22F1DAE3000AC8A7 /* QuestionReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionReducer.swift; sourceTree = "<group>"; };
+		984AFE8E22F1E0B1000AC8A7 /* ChangeCharacterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCharacterAction.swift; sourceTree = "<group>"; };
+		984AFE9022F1E0BC000AC8A7 /* ChangeSpellAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSpellAction.swift; sourceTree = "<group>"; };
+		984AFE9222F1E0F4000AC8A7 /* AnswerQuestionAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerQuestionAction.swift; sourceTree = "<group>"; };
 		9863B07021F75F3B00947B4A /* SpellInformationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpellInformationView.xib; sourceTree = "<group>"; };
 		9863B07221F7634F00947B4A /* SpellInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellInfoViewController.swift; sourceTree = "<group>"; };
 		9863B07421F7F0C600947B4A /* lol.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = lol.gif; path = HPGifs/lol.gif; sourceTree = SOURCE_ROOT; };
@@ -241,6 +259,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		984AFE8122F1D279000AC8A7 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				984AFE8222F1D289000AC8A7 /* AppState.swift */,
+				984AFE8422F1D293000AC8A7 /* LoginState.swift */,
+				984AFE8722F1D486000AC8A7 /* QuestionState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		984AFE8622F1D44F000AC8A7 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				984AFE7F22F1D15D000AC8A7 /* AppReducer.swift */,
+				984AFE8922F1DAD7000AC8A7 /* LoginReducer.swift */,
+				984AFE8B22F1DAE3000AC8A7 /* QuestionReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		984AFE8D22F1E096000AC8A7 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				984AFE8E22F1E0B1000AC8A7 /* ChangeCharacterAction.swift */,
+				984AFE9022F1E0BC000AC8A7 /* ChangeSpellAction.swift */,
+				984AFE9222F1E0F4000AC8A7 /* AnswerQuestionAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
 		9879EC7A21ED603F005C99A4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +376,9 @@
 		98AE498A21E77A2E00030F14 /* HPKnowledge */ = {
 			isa = PBXGroup;
 			children = (
+				984AFE8D22F1E096000AC8A7 /* Actions */,
+				984AFE8622F1D44F000AC8A7 /* Reducers */,
+				984AFE8122F1D279000AC8A7 /* State */,
 				9879ECA321F119C5005C99A4 /* Gifs */,
 				98AE49BC21E77A7700030F14 /* Service */,
 				98AE49B921E77A5B00030F14 /* Model */,
@@ -610,6 +661,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HPKnowledge/Pods-HPKnowledge-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -618,6 +670,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -690,16 +743,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9863B0AF21F894B600947B4A /* QuizCollectionViewCell.swift in Sources */,
+				984AFE8822F1D486000AC8A7 /* QuestionState.swift in Sources */,
 				98AE49BE21E77A9000030F14 /* URLConstants.swift in Sources */,
 				98AE498E21E77A2E00030F14 /* LoginViewController.swift in Sources */,
 				9879EC8921EE4C61005C99A4 /* SpellService.swift in Sources */,
 				9879EC9621EFA05B005C99A4 /* SideMenu.swift in Sources */,
 				98AE49C621E77BB200030F14 /* Character.swift in Sources */,
+				984AFE8F22F1E0B1000AC8A7 /* ChangeCharacterAction.swift in Sources */,
 				9879ECA021F116FA005C99A4 /* LaunchScreenViewController.swift in Sources */,
 				9879EC9E21F1160F005C99A4 /* AnimationView.swift in Sources */,
+				984AFE8A22F1DAD7000AC8A7 /* LoginReducer.swift in Sources */,
+				984AFE8C22F1DAE3000AC8A7 /* QuestionReducer.swift in Sources */,
 				9879EC7921ED4D2C005C99A4 /* HomeViewModel.swift in Sources */,
+				984AFE9322F1E0F4000AC8A7 /* AnswerQuestionAction.swift in Sources */,
 				9879EC9021EE5534005C99A4 /* TableViewCell.swift in Sources */,
 				9879EC9A21EFA49C005C99A4 /* SideMenuViewModel.swift in Sources */,
+				984AFE8322F1D289000AC8A7 /* AppState.swift in Sources */,
 				9879EC7121ED035C005C99A4 /* QuizCollectionViewCellViewModel.swift in Sources */,
 				98AE498C21E77A2E00030F14 /* AppDelegate.swift in Sources */,
 				9879EC9821EFA106005C99A4 /* SideMenuTableViewCell.swift in Sources */,
@@ -708,13 +767,16 @@
 				9879EC7521ED2E60005C99A4 /* LoginViewModel.swift in Sources */,
 				98AE49C421E77B9700030F14 /* Json.swift in Sources */,
 				9879EC9221EF6020005C99A4 /* ContainerViewController.swift in Sources */,
+				984AFE9122F1E0BC000AC8A7 /* ChangeSpellAction.swift in Sources */,
 				98AE49C321E77B9700030F14 /* ServiceResponse.swift in Sources */,
 				9879EC6B21ECB7F8005C99A4 /* CharacterService.swift in Sources */,
 				9879EC7321ED036B005C99A4 /* Quiz.swift in Sources */,
 				9879EC6921ECB4CC005C99A4 /* Spell.swift in Sources */,
 				9879EC9421EF6147005C99A4 /* SideMenuViewController.swift in Sources */,
+				984AFE8522F1D293000AC8A7 /* LoginState.swift in Sources */,
 				9879EC6F21ECF5DE005C99A4 /* SpellsViewModel.swift in Sources */,
 				98F9C5812201BFCA009BD554 /* EndingViewController.swift in Sources */,
+				984AFE8022F1D15D000AC8A7 /* AppReducer.swift in Sources */,
 				9879EC8221EE1418005C99A4 /* TableViewController.swift in Sources */,
 				98AE49C221E77B9700030F14 /* NetworkDispatcher.swift in Sources */,
 				9863B0AD21F8869600947B4A /* CharacterInfoViewController.swift in Sources */,
