@@ -9,9 +9,5 @@
 import ReSwift
 
 struct LoginState: StateType {
-    var success: Bool
-    
-    init() {
-        success = false
-    }
+    var success = false
 }

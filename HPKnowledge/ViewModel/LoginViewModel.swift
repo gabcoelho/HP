@@ -9,9 +9,12 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import ReSwift
+
 
 class LoginViewModel {
     
+    private(set) var loginState = LoginState()
     private(set) var passwordErrorMessage = PublishSubject<String>()
     private let disposeBag = DisposeBag()
     

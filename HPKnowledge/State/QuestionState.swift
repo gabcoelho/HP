@@ -9,9 +9,5 @@
 import ReSwift
 
 struct QuestionState: StateType {
-    var isAnswered: Bool
- 
-    init() {
-        isAnswered = false
-    }
+    var isAnswered = false
 }
